@@ -1,0 +1,93 @@
+/* General Styling */
+.content {
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 300px 0 50px 0;
+}
+
+/* Headings */
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+/* Subtext Section */
+.content_subText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_subText span {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #1E64D4;
+}
+
+.content_subText h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Boxed Text Section */
+.content_boxText {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 100px;
+  padding: 15px;
+  border: 1px solid var(--Nor_white);
+  border-radius: 15px;
+  background-color:#DDE8F9;
+}
+
+/* Additional Information Section */
+.additional-info {
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.additional-info h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.additional-info p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.additional-info ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.additional-info li {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Sign Image Section */
+.sign_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign_img img {
+  width: 35%;
+  /* max-width: 100%; */
+}

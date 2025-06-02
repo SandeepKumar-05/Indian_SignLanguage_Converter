@@ -1,0 +1,17 @@
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 1000; */
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .preloader.fade-out {
+    opacity: 0;
+    pointer-events: none;
+  }
+  

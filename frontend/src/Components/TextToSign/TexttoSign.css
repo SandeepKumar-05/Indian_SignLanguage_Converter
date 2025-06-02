@@ -1,0 +1,134 @@
+.container_gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.gif_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.gif {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content_gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.content_gif button {
+    width: 280px;
+    height: 40px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 5px 10px;
+}
+
+.content_gif button:hover {
+    background-color: #0056b3;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #007BFF;
+}
+
+.content_gif .sub_button {
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.content_gif .sub_button:hover {
+    background-color:rgb(173, 2, 2);
+}
+.input-container {
+    position: relative;
+    width: 300px;
+}
+
+.suggestion-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+    list-style: none;
+}
+
+.suggestion-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    
+}
+.suggestion-box::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+.suggestion-box li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 16px;
+}
+
+.suggestion-box li:hover {
+    background: #f0f0f0;
+    font-weight: bold;
+}
